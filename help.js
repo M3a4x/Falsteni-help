@@ -8,7 +8,7 @@ client.on('ready', function() {
     console.log(`i am ready ${client.user.username}`);
 });
 client.on('ready', () => {
-  client.user.setGame(` By M3a4x #4272 .`,'https://www.twitch.tv/mjrmqm');
+  client.user.setGame(` FuCk All Of You | fhelp .`,'https://www.twitch.tv/mjrmqm');
   console.log('---------------');
   console.log('Dark-bot Bot Is Online')
   console.log('---------------')
