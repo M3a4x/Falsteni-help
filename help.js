@@ -20,7 +20,7 @@ client.on('message', message => {
   .addField("**Server: **" , client.guilds.size)
   message.channel.sendEmbed(embed);
     }
-if (message.content === '*help') {
+if (message.content === 'fhelp') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)    
       .addField("** 🎶 اوامر الميوزك**","** **")
