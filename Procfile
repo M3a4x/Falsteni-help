@@ -1,1 +1,1 @@
-worker: help.js
+worker: node help.js
