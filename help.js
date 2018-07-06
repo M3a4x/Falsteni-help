@@ -24,10 +24,10 @@ if (message.content === 'fhelp') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)    
       .addField("** 🎶 اوامر الميوزك**","** **")
-      .addField("***play :musical_note:**","**لـ تشغيل المطلوب**")
-      .addField("***stop  :musical_keyboard:**","**لـ ايقاف المطلوب**")
-      .addField("***skip :musical_score:**","**لـ تخطي الاغنية المشغله**")
-      .addField("***vol :musical_score:**","**لـ رفع و تخفيض صوت الأغنية**")
+      .addField("**fplay :musical_note:**","**لـ تشغيل المطلوب**")
+      .addField("**fstop  :musical_keyboard:**","**لـ ايقاف المطلوب**")
+      .addField("**fskip :musical_score:**","**لـ تخطي الاغنية المشغله**")
+      .addField("**fvol :musical_score:**","**لـ رفع و تخفيض صوت الأغنية**")
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
     }
